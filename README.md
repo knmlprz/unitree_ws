@@ -34,7 +34,7 @@ python3 ./unitree_mujoco.py
 ### simulation moving test
 change config.py
 ```bash
-python3 ~/unitree_mujoco/simulate_python/config.py
+nano ~/unitree_mujoco/simulate_python/config.py
 
 # set in this file: USE_JOYSTICK = 0
 ```
@@ -99,7 +99,7 @@ source install/setup.bash
 
 change config.py
 ```bash
-python3 ~/unitree_mujoco/simulate_python/config.py
+nano ~/unitree_mujoco/simulate_python/config.py
 
 # set in this file: ROBOT = "g1"
 # and             : ROBOT_SCENE = "../unitree_robots/" + ROBOT + "/scene_29dof.xml"
